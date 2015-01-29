@@ -43,3 +43,15 @@ In the above example of a blueprint's 'template' method the factory can be queri
     },
 
 It should be possible to derive new factories from this base class and introduce new properties and logic. The only downside is that the 'generate' method could become cumbersome and over complicated.
+
+### What Next?
+I've got a bazillion ideas about how to take this forward. I believe that the ideas behind popular libraries like 'Factory Girl' are well thought out and common place in the real world. While a number of attempts have been made to bring Factory Girl to the JavaScript domain I've struggled to either get them working or to apply them to my work entirely. To this end my solution is a bespoke solution at best.
+
+Some ideas I have are:
+
+* Break out example
+* Introduce unit tests for base classes
+* CommonJS/AMD wrappers
+* Allow static JSON (i.e. copy and paste JSON into a factory from Chrome)
+* General improvements to the API. There's a bit of duplication
+* De-couple from my custom router and mockjax
