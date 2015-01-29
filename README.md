@@ -8,7 +8,7 @@ This example is based around the thinking behind libraries like 'Factory Girl' a
 No particular reason. You could use any library that does a good job of mocking XHR. I quite liked MockJax's API and it worked right off the bat. Mocking XHR instead of setting up a small server has a number of advantages - I think the biggest win is portability. Your service is just a bundled library that you bring in when needed - instead of a running process that needs to be installed and setup outside of the general environment.
 
 ##Why Factories?
-In this first iteration I've not stuck with any consistent design pattern as far as the factory concept goes. Factories are just generators that build objects from 'blueprints'. Blueprints are used as templates that define 'models'.
+In this first iteration I've not stuck with any consistent design pattern as far as the factory concept goes. Factories are just generators that build objects from 'blueprints'. Blueprints are used as templates that define 'models'. I like the analogy of the factory - one that builds a number of items from a set of blueprints. It seems fitting in this situation.
 
 
 ### Blueprints and Factories
